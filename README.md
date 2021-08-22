@@ -13,6 +13,17 @@ This board was designed as a general purpose module using CAN Bus to expand the 
 This module is a compact, low cost, using the stm32F103C8 processor (same as BluePill), optimised for smd assembly by JLCPCB.
 The module has 8 mosfet driven outputs, 4 analogue outputs, 4 analogue inputs, internal battery (12v) voltage sensor and a ttl serial port.
 
+### Special Gauge Features
+
+* Tacho can be set by sending RPM value
+* Tacho, Fuel, and Temp gauges can be set by sending Percentage value.
+* Temperature Gauge can be set by sending temperate.
+
+### Special Tacho Features
+
+* Tacho can be used as Ampere Gauge, by sending Current (Amps) value.
+* Tacho can be used as kWatt (power) Gauge, by sending Power (kWatts) value.
+
 ### Features
 
 * CAN bus operated.  (with 120 ohm terminator jumper.)
@@ -57,7 +68,7 @@ Software is yet to be done.
 *  CAN address for each output, and an additional address for all 8 outputs.
 *  CAN address for each PWM output.
 *  CAN address to set Frequency of the Push Pull output.
-*  CAN address to read all analogue inputs as adc value.  Scan rate to be defined.
+*  CAN address to send all analogue inputs as adc value.  Scan rate to be defined.
 
 
 #### DB25 Connector
