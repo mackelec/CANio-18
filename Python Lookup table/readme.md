@@ -18,6 +18,6 @@ The arrays:
 * gaugeFuelCal
 * gaugeTachoCal
 
-Need to entered using the values of your gauges.  There are no limit to the number of points you add, this will just make the calibration more linear.
+Need to entered using the values of your gauges.  There is no limit to the number of points you add, this will just make the calibration more linear.
 * Calibration elements for Temp and Fuel Gauges, The first element of the pair is percent and the second element is the PWM value.
 * Calibration elements of Tacho. The first element is RPM and the second element is the frequency.
